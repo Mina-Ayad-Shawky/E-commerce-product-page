@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="./assets/all.min.css">
+    <!-- main -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <div class="home">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light  py-0">
+                <a class="navbar-brand mr-4" href="#"><img src="./assets/images/logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse row justify-content-between mx-0" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link py-4" href="#">Collections</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-4" href="#">Men</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-4" href="#">Women</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-4" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-4" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div><img class="cart1" style="margin-right: 25px ;" src="./assets/images/icon-cart.svg" alt=""><img
+                            class="avatar" style="width: 40px;" src="./assets/images/image-avatar.png" alt=""></div>
+                </div>
+
+            </nav>
+            
+            <div class="caro none"></div>
+            <div class="row col-md-11 mx-auto mt-4 justify-content-around align-items-center">
+                <div class="images col-md-5 ">
+                    <div class="bigimg w-100 bigimg1">
+                        <img style="width: 100%; border-radius: 20px; cursor: pointer;"
+                            src="./assets/images/image-product-1.jpg" alt="">
+                    </div>
+                    <div class="rowimg row justify-content-between mx-0 mt-3 ">
+                        <div class="thumbParent border active"><img class="thumb " style=" width: 80px;"
+                                src="./assets/images/image-product-1.jpg" alt=""></div>
+                        <div class="thumbParent"><img class="thumb" style=" width: 80px;"
+                                src="./assets/images/image-product-2.jpg" alt=""></div>
+                        <div class="thumbParent"><img class="thumb" style=" width: 80px;"
+                                src="./assets/images/image-product-3.jpg" alt=""></div>
+                        <div class="thumbParent"><img class="thumb" style=" width: 80px;"
+                                src="./assets/images/image-product-4.jpg" alt=""></div>
+
+                    </div>
+                </div>
+                <div class="col-md-5 .ccp">
+                    <div class="caption">
+                        <h6>Sneaker Company</h6>
+                        <h1>Fall Limited Edition Sneakers</h1>
+                        <p style="font-size: smaller;">These low-profile sneakers are your perfect casual wear
+                            companion.
+                            Featuring a
+                            durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+                        <div class=" justify-content-between mx-0 price">
+                            <h3>$125.00 <span class="discount">-50%</span></h3>
+                            <h6 style="text-decoration: line-through;">$250.00</h6>
+                        </div>
+                        
+                        <div class="btns row mt-4">
+                            <div class="btn-group col-md-4" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-light minus"><img
+                                        src="./assets/images/icon-minus.svg" alt=""></button>
+                                <button type="button" class="btn btn-light pcs">0</button>
+                                <button type="button" class="btn btn-light plus"><img
+                                        src="./assets/images/icon-plus.svg" alt=""></button>
+                            </div>
+                            <div class="col-md-8 addtocartbtn">
+                                <button
+                                    style="background: hsl(26, 100%, 55%); color: black; font-size: 14px; font-weight: bolder;"
+                                    type="button" class="btn w-100"><img style="width: 15px;"
+                                        src="./assets/images/icon-cart.svg" alt=""> Add to Cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="cart2 none ">
+            <div class="title2">
+                <h5>cart</h5>
+            </div>
+            <div class="cap2">
+                <p>Your cart is empty</p>
+            </div>
+
+        </div>
+        <div class="model none">
+            <div class="images col-md-4 modelimg">
+                <img style="cursor: pointer; margin-bottom: 5px;" class="close" src="./assets/images/icon-close.svg"
+                    alt="">
+                <div class="bigimg w-100">
+                    <img style="width: 100%; border-radius: 20px;" src="./assets/images/image-product-1.jpg" alt="">
+                </div>
+                <div class="rowimg row justify-content-between mx-0 mt-3">
+                    <div class="thumbParent border active"><img class="thumb " style=" width: 80px;"
+                            src="./assets/images/image-product-1.jpg" alt=""></div>
+                    <div class="thumbParent"><img class="thumb" style=" width: 80px;"
+                            src="./assets/images/image-product-2.jpg" alt=""></div>
+                    <div class="thumbParent"><img class="thumb" style=" width: 80px;"
+                            src="./assets/images/image-product-3.jpg" alt=""></div>
+                    <div class="thumbParent"><img class="thumb" style=" width: 80px;"
+                            src="./assets/images/image-product-4.jpg" alt=""></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button trigger modal -->
+
+    <script src="./assets/jquery/jquery-3.6.1.min.js"></script>
+    <script src="./assets/bootstrap/js/popper.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
